@@ -14,7 +14,14 @@ This repository contains an Implementing more spam classifying using Ensemble Me
 
 ## Overview
 
-Ensemble Methods is a powerful algorithm for classification which also finds the best boundary. We explored topics related to Maximum Margin Classifier, Classification with Inseparable Classes, and Kernel Methods.
+### Ensemble Methods 
+
+In order to find a way to optimize for both variance and bias, we have ensemble methods. Ensemble methods have become some of the most popular methods used to compete in competitions on Kaggle and used in industry across applications.
+
+There were two randomization techniques you saw to combat overfitting:
+
+* Bootstrap the data - that is, sampling the data with replacement and fitting your algorithm and fitting your algorithm to the sampled data.
+* Subset the features - in each split of a decision tree or with each algorithm used an ensemble only a subset of the total possible features are used.
 
 ## Contents
 
